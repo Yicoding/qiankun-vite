@@ -6,7 +6,6 @@ import { useNavigate } from 'react-router-dom';
 import s from './styles.module.less';
 
 function Home() {
-  console.log('home');
   const { rootNavigate } = useBearStore((state: BearState) => state);
   const navigate = useNavigate();
 
@@ -22,7 +21,7 @@ function Home() {
     <div className={s.root}>
       <h1>qiankun-mic-a-home</h1>
       <Button type="primary" onClick={() => jump('qiankun-mic-b')}>
-        跳转到子应用B
+        使用主应用传入的路由跳转方法跳转到子应用B
       </Button>
       <br />
       <br />

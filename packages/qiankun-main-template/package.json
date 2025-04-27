@@ -8,6 +8,9 @@
   "maintainers": [
     "kaiyu.kong"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "template.json",
   "files": [
     "template",

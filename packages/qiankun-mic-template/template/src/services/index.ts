@@ -1,12 +1,11 @@
-import { http } from './request';
-import type { LoginData, UserInfoRes } from './types';
+import { http } from '@/services/request';
+import type { UserInfo } from '@/utils/types';
 
 const { VITE_ORIGIN } = import.meta.env;
 
-export function login() {
-  return http.get<LoginData>(`${VITE_ORIGIN}/login`);
-}
+/** h5获取用户信息接口 */
+export const queryUserInfo = () => {
+  const url = `${VITE_ORIGIN}/xxxx/user/info`;
+  return http.get<UserInfo>(url);
+};
 
-export function getUserInfo() {
-  return http.post<UserInfoRes>(`${VITE_ORIGIN}/user/info`);
-}

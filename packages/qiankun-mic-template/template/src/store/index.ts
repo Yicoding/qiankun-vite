@@ -1,5 +1,5 @@
-import type { NavigateFunction } from 'react-router-dom';
 import { create } from 'zustand';
+import type { NavigateFunction } from 'react-router-dom';
 
 /**
  * 字段
@@ -14,7 +14,6 @@ type State = {
  */
 type Action = {
   increase: () => void;
-  setMainNavigate: (rootNavigate: NavigateFunction) => void;
   increaseAsync: () => Promise<void>;
 };
 
@@ -32,5 +31,6 @@ export const useBearStore = create<BearState>()((set, get) => ({
       bears: get().bears + 1
     });
   },
-  setMainNavigate: (rootNavigate) => set(() => ({ rootNavigate }))
 }));
+
+export const { setState } = useBearStore;

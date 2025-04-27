@@ -17,6 +17,7 @@
     // 2. 这行配置与 tsc --noEmit 命令等效
     "noEmit": true,
     "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],

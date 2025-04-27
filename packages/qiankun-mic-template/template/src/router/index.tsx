@@ -6,15 +6,17 @@ import Suspenselazy from '@/components/Suspenselazy';
 import { RouteObject, createBrowserRouter } from 'react-router-dom';
 import { qiankunWindow } from 'vite-plugin-qiankun/dist/helper';
 
+import { isLocal } from '@/utils/env';
+
 const Home = Suspenselazy(
-  () => import(/* webpackChunkName:"Empty" */ '@/view/Home')
+  () => import(/* webpackChunkName:"Home" */ '@/pages/Home')
 );
 const Foo = Suspenselazy(
-  () => import(/* webpackChunkName:"Empty" */ '@/view/Foo')
+  () => import(/* webpackChunkName:"Foo" */ '@/pages/Foo')
 );
 
 const Empty = Suspenselazy(
-  () => import(/* webpackChunkName:"Empty" */ '@/view/Empty')
+  () => import(/* webpackChunkName:"Empty" */ '@/pages/Empty')
 );
 
 const routes: RouteObject[] = [
@@ -23,7 +25,7 @@ const routes: RouteObject[] = [
     element: Home
   },
   {
-    path: '/foo',
+    path: 'foo',
     element: Foo
   },
   {
@@ -37,19 +39,24 @@ const routes: RouteObject[] = [
   }
 ];
 
+const { VITE_BASE_ROUTE_NAME } = import.meta.env;
+
 function getRouter(rootBasename?: string) {
-  const { MODE, VITE_BASE_ROUTE_NAME } = import.meta.env;
+
+  console.log('rootBasename kooo', rootBasename)
+
+  console.log('koooo', qiankunWindow.__POWERED_BY_QIANKUN__
+    ? rootBasename
+    : isLocal
+      ? '/'
+      : VITE_BASE_ROUTE_NAME)
   return createBrowserRouter(routes, {
-    /**
-     * 设置basename
-     * 1.区分是否为qiankun环境
-     * 2.区分是否为本地开发环境
-     */
+    // 设置basename
     basename: qiankunWindow.__POWERED_BY_QIANKUN__
       ? rootBasename
-      : MODE === 'development'
-      ? '/'
-      : VITE_BASE_ROUTE_NAME
+      : isLocal
+        ? '/'
+        : VITE_BASE_ROUTE_NAME
   });
 }
 
