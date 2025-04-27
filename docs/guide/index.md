@@ -45,7 +45,7 @@ $ npx -p @xmly/create-project create-project download @xmly/qiankun-mic-template
 
 ## demo
 
-[测试环境 demo 地址](https://ops.test.ximalaya.com/gatekeeper/qiankun-main-app)
+[测试环境 demo 地址](https://ops.test.xxx.com/gatekeeper/qiankun-main-app)
 
 ## 参考文档
 

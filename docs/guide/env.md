@@ -53,7 +53,7 @@ ant 样式前缀，解决主应用和子应用的样式问题
 | :---------- | :---------------------------------- |
 | development | 本地开发环境无需配置                |
 | mock        | mock 环境无需配置                   |
-| test        | `https://static2.test.ximalaya.com` |
+| test        | `https://static2.test.xxx.com` |
 | uat         | `https://s1.uat.xmcdn.com`          |
 | production  | `https://s1.xmcdn.com`              |
 
@@ -69,9 +69,9 @@ ant 样式前缀，解决主应用和子应用的样式问题
 | :---------- | :----------------------------------------- |
 | development | `/dev_proxy_ops`：本地开发可能需要配置跨域 |
 | mock        | mock 环境无需配置                          |
-| test        | `http://ops.$VITE_BUILD_ENV.ximalaya.com`  |
-| uat         | `http://ops.$VITE_BUILD_ENV.ximalaya.com`  |
-| production  | `http://ops.ximalaya.com`                  |
+| test        | `http://ops.$VITE_BUILD_ENV.xxx.com`  |
+| uat         | `http://ops.$VITE_BUILD_ENV.xxx.com`  |
+| production  | `http://ops.xxx.com`                  |
 
 ### VITE_SOURCE_MAPPING_URL（sourcemap 文件引用地址）
 

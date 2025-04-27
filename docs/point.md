@@ -15,9 +15,9 @@ nav:
 
 例如：
 
-> 子应用的真实访问地址为`https://ops.test.ximalaya.com/gatekeeper/qiankun-mic-a`
+> 子应用的真实访问地址为`https://ops.test.xxx.com/gatekeeper/qiankun-mic-a`
 
-> 主应用的真实访问地址为`https://ops.test.ximalaya.com/gatekeeper`
+> 主应用的真实访问地址为`https://ops.test.xxx.com/gatekeeper`
 
 > 主应用在设置子应用的`activeRule`时不能设置成`qiankun-mic-a`
 

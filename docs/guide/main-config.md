@@ -20,7 +20,7 @@ nav:
 // 配置代理，处理子应用开发跨域问题
 proxy: {
   '/web-config': {
-    target: 'https://ops.test.ximalaya.com',
+    target: 'https://ops.test.xxx.com',
     changeOrigin: true
   }
 }
@@ -90,7 +90,7 @@ export default defineConfig(({ mode, command }: ConfigEnv) => {
       // 配置代理，处理子应用开发跨域问题
       proxy: {
         '/web-config': {
-          target: 'https://ops.test.ximalaya.com',
+          target: 'https://ops.test.xxx.com',
           changeOrigin: true,
         },
       },

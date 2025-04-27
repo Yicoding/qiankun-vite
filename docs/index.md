@@ -6,6 +6,6 @@ hero:
   actions:
     - text: 快速开始
       link: /guide
-    - text: gitlab
-      link: https://gitlab.ximalaya.com/react-library/cli/micro-scripts
+    - text: github
+      link: https://github.com/Yicoding/qiankun-vite
 ---

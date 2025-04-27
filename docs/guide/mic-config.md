@@ -90,7 +90,7 @@ export default defineConfig(({ mode, command }: ConfigEnv) => {
       // 配置代理，处理本地开发跨域问题
       proxy: {
         '/dev_proxy_ops': {
-          target: 'http://ops.test.ximalaya.com',
+          target: 'http://ops.test.xxx.com',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/dev_proxy_ops/, ''),
         },
