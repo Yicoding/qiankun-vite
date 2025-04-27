@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/Yicoding/qiankun-vite/compare/@enode/qiankun-main-template@0.3.0...@enode/qiankun-main-template@0.4.0) (2025-04-27)
+
+### Features
+
+- 文档 ([9274a33](https://github.com/Yicoding/qiankun-vite/commit/9274a33b42fd4fff6bebb0f2ed42fb9d83e2871b))
+
 # [0.3.0](https://github.com/Yicoding/qiankun-vite/compare/@enode/qiankun-main-template@0.2.0...@enode/qiankun-main-template@0.3.0) (2025-04-27)
 
 ### Features
