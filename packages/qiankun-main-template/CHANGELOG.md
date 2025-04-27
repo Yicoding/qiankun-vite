@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/Yicoding/qiankun-vite/compare/@enode/qiankun-main-template@0.1.0...@enode/qiankun-main-template@0.2.0) (2025-04-27)
+
+### Features
+
+- npm ([ec769d2](https://github.com/Yicoding/qiankun-vite/commit/ec769d28c5bb46d8a7c80bba2e82868415d8daaf))
+
 # 0.1.0 (2025-04-27)
 
 ### Features
