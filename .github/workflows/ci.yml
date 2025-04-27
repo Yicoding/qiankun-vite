@@ -9,7 +9,7 @@ on:
       - packages/**
       - docs/**
       - typings/**
-      - .umirc.js
+      - .dumirc.js
       - tsconfig.json
       - package.json
       - .github/workflows/*
