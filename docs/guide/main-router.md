@@ -21,13 +21,14 @@ nav:
  */
 import Suspenselazy from '@/components/Suspenselazy';
 import { RouteObject, createBrowserRouter } from 'react-router-dom';
+import { isLocal } from '@/utils/env';
 
 const Home = Suspenselazy(
-  () => import(/* webpackChunkName:"home" */ '@/view/Home'),
+  () => import(/* webpackChunkName:"home" */ '@/pages/Home')
 );
 
 const Empty = Suspenselazy(
-  () => import(/* webpackChunkName:"empty" */ '@/view/Empty'),
+  () => import(/* webpackChunkName:"empty" */ '@/pages/Empty')
 );
 
 const routes: RouteObject[] = [
@@ -36,26 +37,28 @@ const routes: RouteObject[] = [
     element: Home,
     children: [
       {
-        path: '*',
-      },
-    ],
+        path: '*'
+      }
+    ]
   },
   {
     path: 'empty',
-    element: Empty,
+    element: Empty
   },
   // 未匹配到页面
   {
     path: '*',
-    element: Empty,
-  },
+    element: Empty
+  }
 ];
 
-const { MODE, VITE_BASE_ROUTE_NAME } = import.meta.env;
+// 获取基础路由名
+const { VITE_BASE_ROUTE_NAME } = import.meta.env;
 
+// 创建路由
 const router = createBrowserRouter(routes, {
   // 区分本地和线上
-  basename: MODE === 'development' ? '/' : VITE_BASE_ROUTE_NAME,
+  basename: isLocal ? '/' : VITE_BASE_ROUTE_NAME,
 });
 
 export default router;

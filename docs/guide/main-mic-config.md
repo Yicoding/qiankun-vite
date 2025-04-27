@@ -15,15 +15,17 @@ nav:
 ## 配置菜单
 
 ```ts | pure
-import { ORIGIN_OPS } from '@/utils/origin';
 import { HomeOutlined, SettingOutlined } from '@ant-design/icons';
+
+const { VITE_ORIGIN } = import.meta.env;
+
 /**
  * 获取子应用静态 HTML 的地址
  * @param name 应用名
  * @returns 静态 HTML 的地址
  */
 function getOpsWebPath(name: string) {
-  return `${ORIGIN_OPS}/gatekeeper/${name}?v=${Date.now()}`; // 加时间戳防止缓存
+  return `${VITE_ORIGIN}/gatekeeper/${name}?v=${Date.now()}`; // 加时间戳防止缓存
 }
 
 export interface Router {

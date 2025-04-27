@@ -43,13 +43,6 @@ const { VITE_BASE_ROUTE_NAME } = import.meta.env;
 
 function getRouter(rootBasename?: string) {
 
-  console.log('rootBasename kooo', rootBasename)
-
-  console.log('koooo', qiankunWindow.__POWERED_BY_QIANKUN__
-    ? rootBasename
-    : isLocal
-      ? '/'
-      : VITE_BASE_ROUTE_NAME)
   return createBrowserRouter(routes, {
     // 设置basename
     basename: qiankunWindow.__POWERED_BY_QIANKUN__

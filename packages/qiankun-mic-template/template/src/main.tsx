@@ -22,7 +22,6 @@ const rootDom = `${VITE_REACT_APP_NAME}-root`;
 let root: ReactDOM.Root | null = null;
 
 const render = (props: QiankunProps) => {
-  console.log('qiankun mic props', props)
   const { container, ...restProps } = props;
   // 如果是在主应用的环境下就挂载主应用的节点，否则挂载到本地
   const mountNode = (container

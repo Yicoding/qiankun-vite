@@ -9,7 +9,6 @@ import { hideLoading, setTheme } from '@/utils/tools';
 const App: FC<QiankunProps> = (props) => {
 
   const { rootBasename, rootNavigate } = props;
-  console.log('rootBasename333', rootBasename)
 
   // 获取主题
   useEffect(() => {

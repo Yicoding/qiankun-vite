@@ -14,27 +14,25 @@ nav:
 
 ## 环境准备
 
-确保正确安装 [Node.js](https://nodejs.org/en) 且版本为 `16+` 即可。（注意：云效发布的 node 版本也需要选择 v16+）
+确保正确安装 [Node.js](https://nodejs.org/en) 且版本为 `20+`。
 
 ```bash
 $ node -v
-v16.15.1
+v20.19.0
 ```
-
-![](images/node-version.png)
 
 ## 下载模版
 
 ### 下载主应用
 
 ```bash
-$ npx -p @xmly/create-project create-project download @xmly/qiankun-main-template
+$ npx @enode/create-project download @enode/qiankun-main-template
 ```
 
 ### 下载子应用
 
 ```bash
-$ npx -p @xmly/create-project create-project download @xmly/qiankun-mic-template
+$ npx @enode/create-project download @enode/qiankun-mic-template
 ```
 
 ### 通过可视化工具下载
@@ -42,10 +40,6 @@ $ npx -p @xmly/create-project create-project download @xmly/qiankun-mic-template
 目前主应用和子应用的模版已经集成到可视化工具中，也可以通过可视化工具一键下载
 
 ![](images/down-by-ele.png)
-
-## demo
-
-[测试环境 demo 地址](https://ops.test.xxx.com/gatekeeper/qiankun-main-app)
 
 ## 参考文档
 

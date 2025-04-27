@@ -25,25 +25,40 @@ nav:
 使用时也需要由原来的 `#root` 改为对应的 `#子应用名-root`
 
 ```ts | pure
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { QiankunProps } from 'vite-plugin-qiankun/dist/helper';
-import App from './App';
+import '@assets/styles/index.less';
 
-const { VITE_REACT_APP_NAME } = import.meta.env;
+import ReactDOM from 'react-dom/client';
+import {
+  QiankunProps,
+  qiankunWindow,
+} from 'vite-plugin-qiankun/dist/helper';
+import App from './App';
+import { ConfigProvider } from 'antd';
+import locale from 'antd/locale/zh_CN';
+import dayjs from 'dayjs';
+
+import 'dayjs/locale/zh-cn';
+
+dayjs.locale('zh-cn');
+
+const { VITE_REACT_APP_NAME, VITE_ANT_PREFIXCLS } = import.meta.env;
+
 const rootDom = `${VITE_REACT_APP_NAME}-root`;
+
+let root: ReactDOM.Root | null = null;
 
 const render = (props: QiankunProps) => {
   const { container, ...restProps } = props;
   // 如果是在主应用的环境下就挂载主应用的节点，否则挂载到本地
-  ReactDOM.createRoot(
-    (container
-      ? container?.querySelector(`#${rootDom}`)
-      : document.getElementById(rootDom)) as HTMLElement,
-  ).render(
-    <React.StrictMode>
+  const mountNode = (container
+    ? container?.querySelector(`#${rootDom}`)
+    : document.getElementById(rootDom)) as HTMLElement;
+
+  root = ReactDOM.createRoot(mountNode);
+  root.render(
+    <ConfigProvider locale={locale} prefixCls={VITE_ANT_PREFIXCLS}>
       <App {...restProps} />
-    </React.StrictMode>,
+    </ConfigProvider>
   );
 };
 ```
@@ -60,31 +75,27 @@ qiankunWindow.__POWERED_BY_QIANKUN__ ? initQianKun() : render({});
 ## 导出相应的生命周期钩子
 
 ```ts | pure
-import { unmountComponentAtNode } from 'react-dom';
 import {
   QiankunProps,
-  renderWithQiankun,
+  ,
 } from 'vite-plugin-qiankun/dist/helper';
 
 const initQianKun = () => {
-  renderWithQiankun({
+  ({
     // 当前应用在主应用中的生命周期
     // 文档 https://qiankun.umijs.org/zh/guide/getting-started#
 
     mount(props: QiankunProps) {
       render(props);
     },
-    update() {},
+    update() { },
     bootstrap() {
       console.log('react app bootstraped');
     },
-    unmount(props: QiankunProps) {
-      const { container } = props;
-      const mountRoot = container?.querySelector(`#${rootDom}`);
-      unmountComponentAtNode(
-        (mountRoot as Element) || document.querySelector(`#${rootDom}`),
-      );
-    },
+    unmount() {
+      root?.unmount();
+      root = null;
+    }
   });
 };
 ```
