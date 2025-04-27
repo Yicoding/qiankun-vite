@@ -2,14 +2,13 @@
 .env.development                # \u672C\u5730\u5F00\u53D1\u73AF\u5883\u914D\u7F6E\u6587\u4EF6
 .env.mock                       # \u672C\u5730mock\u73AF\u5883\u914D\u7F6E\u6587\u4EF6
 .env.test                       # \u6D4B\u8BD5\u73AF\u5883\u914D\u7F6E\u6587\u4EF6
-.env.uat                        # uat\u73AF\u5883\u914D\u7F6E\u6587\u4EF6
 .env.production                 # \u6B63\u5F0F\u73AF\u5883\u914D\u7F6E\u6587\u4EF6
-`,paraId:0,tocIndex:1},{value:"\u5F53\u524D\u9879\u76EE\u7684 ",paraId:1,tocIndex:3},{value:"package name",paraId:1,tocIndex:3},{value:"\u7EBF\u4E0A\u8DEF\u7531\u7684 ",paraId:2,tocIndex:4},{value:"basename",paraId:2,tocIndex:4},{value:"\uFF0C\u4F8B\u5982\uFF1A\u4E91\u6548\u90E8\u7F72\u7684\u9879\u76EE\u90FD\u4F1A\u653E\u5728 ",paraId:2,tocIndex:4},{value:"/gatekeeper/\u9879\u76EE\u540D",paraId:2,tocIndex:4},{value:" \u4E0B",paraId:2,tocIndex:4},{value:"ant \u6837\u5F0F\u524D\u7F00\uFF0C\u89E3\u51B3\u4E3B\u5E94\u7528\u548C\u5B50\u5E94\u7528\u7684\u6837\u5F0F\u95EE\u9898",paraId:3,tocIndex:5},{value:"\u7F16\u8BD1\u73AF\u5883",paraId:4,tocIndex:6},{value:"\u542B\u4E49",paraId:4,tocIndex:6},{value:"development",paraId:4,tocIndex:6},{value:"\u672C\u5730\u5F00\u53D1\u73AF\u5883",paraId:4,tocIndex:6},{value:"mock",paraId:4,tocIndex:6},{value:"mock \u73AF\u5883",paraId:4,tocIndex:6},{value:"test",paraId:4,tocIndex:6},{value:"\u6D4B\u8BD5\u73AF\u5883",paraId:4,tocIndex:6},{value:"uat",paraId:4,tocIndex:6},{value:"uat \u73AF\u5883",paraId:4,tocIndex:6},{value:"production",paraId:4,tocIndex:6},{value:"\u6B63\u5F0F\u73AF\u5883",paraId:4,tocIndex:6},{value:"\u7F16\u8BD1\u73AF\u5883",paraId:5,tocIndex:7},{value:"\u5BF9\u5E94\u7684\u503C",paraId:5,tocIndex:7},{value:"development",paraId:5,tocIndex:7},{value:"\u672C\u5730\u5F00\u53D1\u73AF\u5883\u65E0\u9700\u914D\u7F6E",paraId:5,tocIndex:7},{value:"mock",paraId:5,tocIndex:7},{value:"mock \u73AF\u5883\u65E0\u9700\u914D\u7F6E",paraId:5,tocIndex:7},{value:"test",paraId:5,tocIndex:7},{value:"https://static2.test.xxx.com",paraId:5,tocIndex:7},{value:"uat",paraId:5,tocIndex:7},{value:"https://s1.uat.xmcdn.com",paraId:5,tocIndex:7},{value:"production",paraId:5,tocIndex:7},{value:"https://s1.xmcdn.com",paraId:5,tocIndex:7},{value:"\u4E91\u6548\u9759\u6001\u8D44\u6E90\u5B58\u653E\u5730\u5740\uFF1A",paraId:6,tocIndex:8},{value:"$VITE_YX_STATIC_ORIGIN/yx/$npm_package_name/last/dist",paraId:6,tocIndex:8},{value:"\u53EF\u6839\u636E\u5177\u4F53\u9879\u76EE\u8FDB\u884C\u914D\u7F6E\uFF0C\u4E5F\u53EF\u914D\u7F6E\u591A\u4E2A",paraId:7,tocIndex:9},{value:"\u7F16\u8BD1\u73AF\u5883",paraId:8,tocIndex:9},{value:"\u5BF9\u5E94\u7684\u503C",paraId:8,tocIndex:9},{value:"development",paraId:8,tocIndex:9},{value:"/dev_proxy_ops",paraId:8,tocIndex:9},{value:"\uFF1A\u672C\u5730\u5F00\u53D1\u53EF\u80FD\u9700\u8981\u914D\u7F6E\u8DE8\u57DF",paraId:8,tocIndex:9},{value:"mock",paraId:8,tocIndex:9},{value:"mock \u73AF\u5883\u65E0\u9700\u914D\u7F6E",paraId:8,tocIndex:9},{value:"test",paraId:8,tocIndex:9},{value:"http://ops.$VITE_BUILD_ENV.xxx.com",paraId:8,tocIndex:9},{value:"uat",paraId:8,tocIndex:9},{value:"http://ops.$VITE_BUILD_ENV.xxx.com",paraId:8,tocIndex:9},{value:"production",paraId:8,tocIndex:9},{value:"http://ops.xxx.com",paraId:8,tocIndex:9},{value:"\u4E91\u6548\u53D1\u5E03\u4F1A\u9ED8\u8BA4\u5C06 sourcemap \u6587\u4EF6\u4E0A\u4F20\u5230\u5185\u7F51 cdn\uFF0C\u56E0\u6B64\u9700\u8981\u4FEE\u6539 sourcemap \u6587\u4EF6\u5F15\u7528\u5730\u5740",paraId:9,tocIndex:10},{value:"vite-env.d.ts",paraId:10,tocIndex:11},{value:" \u6587\u4EF6",paraId:10,tocIndex:11},{value:`/// <reference types="vite/client" />
+`,paraId:0,tocIndex:1},{value:"\u5F53\u524D\u9879\u76EE\u7684 ",paraId:1,tocIndex:3},{value:"package name",paraId:1,tocIndex:3},{value:"\u7EBF\u4E0A\u8DEF\u7531\u7684 ",paraId:2,tocIndex:4},{value:"basename",paraId:2,tocIndex:4},{value:"\uFF0C\u4F8B\u5982\uFF1A\u90E8\u7F72\u7684\u9879\u76EE\u7EDF\u4E00\u653E\u5728 ",paraId:2,tocIndex:4},{value:"/gatekeeper/\u9879\u76EE\u540D",paraId:2,tocIndex:4},{value:" \u4E0B",paraId:2,tocIndex:4},{value:"ant \u6837\u5F0F\u524D\u7F00\uFF0C\u89E3\u51B3\u4E3B\u5E94\u7528\u548C\u5B50\u5E94\u7528\u7684\u6837\u5F0F\u95EE\u9898",paraId:3,tocIndex:5},{value:"\u7F16\u8BD1\u73AF\u5883",paraId:4,tocIndex:6},{value:"\u542B\u4E49",paraId:4,tocIndex:6},{value:"development",paraId:4,tocIndex:6},{value:"\u672C\u5730\u5F00\u53D1\u73AF\u5883",paraId:4,tocIndex:6},{value:"mock",paraId:4,tocIndex:6},{value:"mock \u73AF\u5883",paraId:4,tocIndex:6},{value:"test",paraId:4,tocIndex:6},{value:"\u6D4B\u8BD5\u73AF\u5883",paraId:4,tocIndex:6},{value:"production",paraId:4,tocIndex:6},{value:"\u6B63\u5F0F\u73AF\u5883",paraId:4,tocIndex:6},{value:"\u7F16\u8BD1\u73AF\u5883",paraId:5,tocIndex:7},{value:"\u5BF9\u5E94\u7684\u503C",paraId:5,tocIndex:7},{value:"development",paraId:5,tocIndex:7},{value:"\u672C\u5730\u5F00\u53D1\u73AF\u5883\u65E0\u9700\u914D\u7F6E",paraId:5,tocIndex:7},{value:"mock",paraId:5,tocIndex:7},{value:"mock \u73AF\u5883\u65E0\u9700\u914D\u7F6E",paraId:5,tocIndex:7},{value:"test",paraId:5,tocIndex:7},{value:"https://static2.test.xxx.com",paraId:5,tocIndex:7},{value:"production",paraId:5,tocIndex:7},{value:"https://s1.xxcdn.com",paraId:5,tocIndex:7},{value:"\u9759\u6001\u8D44\u6E90\u5B58\u653E\u5730\u5740\uFF1A",paraId:6,tocIndex:8},{value:"$VITE_STATIC_ORIGIN/yx/$npm_package_name/dist",paraId:6,tocIndex:8},{value:"\u53EF\u6839\u636E\u5177\u4F53\u9879\u76EE\u8FDB\u884C\u914D\u7F6E\uFF0C\u4E5F\u53EF\u914D\u7F6E\u591A\u4E2A",paraId:7,tocIndex:9},{value:"\u7F16\u8BD1\u73AF\u5883",paraId:8,tocIndex:9},{value:"\u5BF9\u5E94\u7684\u503C",paraId:8,tocIndex:9},{value:"development",paraId:8,tocIndex:9},{value:"/proxy_url",paraId:8,tocIndex:9},{value:"\uFF1A\u672C\u5730\u5F00\u53D1\u53EF\u80FD\u9700\u8981\u914D\u7F6E\u8DE8\u57DF",paraId:8,tocIndex:9},{value:"mock",paraId:8,tocIndex:9},{value:"mock \u73AF\u5883\u65E0\u9700\u914D\u7F6E",paraId:8,tocIndex:9},{value:"test",paraId:8,tocIndex:9},{value:"https://m.test.xxx.com",paraId:8,tocIndex:9},{value:"production",paraId:8,tocIndex:9},{value:"https://m.xxx.com",paraId:8,tocIndex:9},{value:"vite-env.d.ts",paraId:9,tocIndex:10},{value:" \u6587\u4EF6",paraId:9,tocIndex:10},{value:`/// <reference types="vite/client" />
 
 /**
  * \u7F16\u8BD1\u73AF\u5883
  */
-declare type BuildEnv = 'development' | 'mock' | 'test' | 'uat' | 'production';
+declare type BuildEnv = 'development' | 'mock' | 'test' | 'production';
 
 /**
  * \u591A\u7F16\u8BD1\u73AF\u5883\u53D8\u91CF\u7EA6\u675F
@@ -17,59 +16,56 @@ declare type BuildEnv = 'development' | 'mock' | 'test' | 'uat' | 'production';
 declare type MultiEnv<T = string> = Record<BuildEnv, T>;
 
 interface ImportMetaEnv {
-  /** \u4E3B\u5E94\u7528\u540D\u79F0 */
-  readonly VITE_REACT_APP_NAME: string;
-  /** \u8DEF\u7531basename */
-  readonly VITE_BASE_ROUTE_NAME: BuildEnv;
-  /** \u7F16\u8BD1\u73AF\u5883 */
-  readonly VITE_BUILD_ENV: BuildEnv;
+  /** \u4E91\u6548basename */
+  readonly VITE_BASE_ROUTE_NAME: string;
   /** \u9759\u6001\u8D44\u6E90 url */
   readonly VITE_PUBLIC_URL: string;
   /** \u63A5\u53E3\u8BF7\u6C42\u57DF\u540D */
   readonly VITE_ORIGIN: string;
-  /** sourcemap\u4E0A\u4F20\u5730\u5740 */
-  readonly VITE_SOURCE_MAPPING_URL: string;
-  /** ant\u6837\u5F0F\u524D\u7F00 */
-  readonly VITE_ANT_PREFIXCLS: string;
   // \u66F4\u591A\u73AF\u5883\u53D8\u91CF...
 }
 
 interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
-`,paraId:11,tocIndex:11},{value:"\u4F7F\u7528 ",paraId:12,tocIndex:12},{value:"--mode",paraId:12,tocIndex:12},{value:" \u6CE8\u5165\u5BF9\u5E94\u7684\u6587\u4EF6",paraId:12,tocIndex:12},{value:`"scripts": {
+`,paraId:10,tocIndex:10},{value:"\u4F7F\u7528 ",paraId:11,tocIndex:11},{value:"--mode",paraId:11,tocIndex:11},{value:" \u6CE8\u5165\u5BF9\u5E94\u7684\u6587\u4EF6",paraId:11,tocIndex:11},{value:`"scripts": {
   "dev": "vite --mode development"
 },
-`,paraId:13,tocIndex:12},{value:"\u76F4\u63A5\u6CE8\u5165\u73AF\u5883\u53D8\u91CF\uFF1A",paraId:14,tocIndex:12},{value:`"scripts": {
+`,paraId:12,tocIndex:11},{value:"\u76F4\u63A5\u6CE8\u5165\u73AF\u5883\u53D8\u91CF\uFF1A",paraId:13,tocIndex:11},{value:`"scripts": {
   "build-analyze": "VITE_BUILD_ANALYZER=true yarn build-prod"
 },
-`,paraId:15,tocIndex:12},{value:"\u4F7F\u7528 vite \u5BFC\u51FA\u7684 ",paraId:16,tocIndex:14},{value:"loadEnv",paraId:16,tocIndex:14},{value:" \u51FD\u6570\u6765\u52A0\u8F7D\u6307\u5B9A\u7684 ",paraId:16,tocIndex:14},{value:".env",paraId:16,tocIndex:14},{value:" \u6587\u4EF6\u3002",paraId:16,tocIndex:14},{value:`export default defineConfig(({ mode, command }: ConfigEnv) => {
-  const { VITE_PUBLIC_URL = '/', VITE_BUILD_ENV } = loadEnv(
-    mode,
-    process.cwd(),
-  );
+`,paraId:14,tocIndex:11},{value:"\u4F7F\u7528 vite \u5BFC\u51FA\u7684 ",paraId:15,tocIndex:13},{value:"loadEnv",paraId:15,tocIndex:13},{value:" \u51FD\u6570\u6765\u52A0\u8F7D\u6307\u5B9A\u7684 ",paraId:15,tocIndex:13},{value:".env",paraId:15,tocIndex:13},{value:" \u6587\u4EF6\u3002",paraId:15,tocIndex:13},{value:`export default defineConfig(({ mode, command }: ConfigEnv) => {
+  const {
+    VITE_PUBLIC_URL = '/',
+    VITE_BUILD_ANALYZER
+  } = loadEnv(mode, process.cwd());
 });
-`,paraId:17,tocIndex:14},{value:`const { VITE_BUILD_ENV } = import.meta.env;
-`,paraId:18,tocIndex:15}]},9978:function(o,e,n){n.r(e),n.d(e,{texts:function(){return t}});var a=n(26211);const t=[{value:"\u786E\u4FDD\u6B63\u786E\u5B89\u88C5 ",paraId:0,tocIndex:1},{value:"Node.js",paraId:0,tocIndex:1},{value:" \u4E14\u7248\u672C\u4E3A ",paraId:0,tocIndex:1},{value:"16+",paraId:0,tocIndex:1},{value:" \u5373\u53EF\u3002\uFF08\u6CE8\u610F\uFF1A\u4E91\u6548\u53D1\u5E03\u7684 node \u7248\u672C\u4E5F\u9700\u8981\u9009\u62E9 v16+\uFF09",paraId:0,tocIndex:1},{value:`$ node -v
-v16.15.1
-`,paraId:1,tocIndex:1},{value:`$ npx -p @xmly/create-project create-project download @xmly/qiankun-main-template
-`,paraId:2,tocIndex:3},{value:`$ npx -p @xmly/create-project create-project download @xmly/qiankun-mic-template
-`,paraId:3,tocIndex:4},{value:"\u76EE\u524D\u4E3B\u5E94\u7528\u548C\u5B50\u5E94\u7528\u7684\u6A21\u7248\u5DF2\u7ECF\u96C6\u6210\u5230\u53EF\u89C6\u5316\u5DE5\u5177\u4E2D\uFF0C\u4E5F\u53EF\u4EE5\u901A\u8FC7\u53EF\u89C6\u5316\u5DE5\u5177\u4E00\u952E\u4E0B\u8F7D",paraId:4,tocIndex:5},{value:"\u6D4B\u8BD5\u73AF\u5883 demo \u5730\u5740",paraId:5,tocIndex:6},{value:"qiankun \u5B98\u65B9\u6587\u6863",paraId:6,tocIndex:7}]},44599:function(o,e,n){n.r(e),n.d(e,{texts:function(){return t}});var a=n(31746);const t=[{value:"\u672C\u5730\u5F00\u53D1\u65F6\uFF0C\u5B50\u5E94\u7528\u63A5\u53E3\u8BF7\u6C42\u53EF\u80FD\u4F1A\u53D1\u751F\u8DE8\u57DF\uFF0C\u56E0\u6B64\u53EF\u4EE5\u5728\u4E3B\u5E94\u7528\u4E2D\u914D\u7F6E\u4EE3\u7406\u505A\u63A5\u53E3\u8F6C\u53D1\uFF0C\u4F8B\u5982\uFF1A",paraId:0,tocIndex:1},{value:`// \u914D\u7F6E\u4EE3\u7406\uFF0C\u5904\u7406\u5B50\u5E94\u7528\u5F00\u53D1\u8DE8\u57DF\u95EE\u9898
+`,paraId:16,tocIndex:13},{value:`const { MODE } = import.meta.env;
+`,paraId:17,tocIndex:14}]},9978:function(o,e,n){n.r(e),n.d(e,{texts:function(){return t}});var a=n(26211);const t=[{value:"\u786E\u4FDD\u6B63\u786E\u5B89\u88C5 ",paraId:0,tocIndex:1},{value:"Node.js",paraId:0,tocIndex:1},{value:" \u4E14\u7248\u672C\u4E3A ",paraId:0,tocIndex:1},{value:"20+",paraId:0,tocIndex:1},{value:"\u3002",paraId:0,tocIndex:1},{value:`$ node -v
+v20.19.0
+`,paraId:1,tocIndex:1},{value:`$ npx @enode/create-project download @enode/qiankun-main-template
+`,paraId:2,tocIndex:3},{value:`$ npx @enode/create-project download @enode/qiankun-mic-template
+`,paraId:3,tocIndex:4},{value:"\u76EE\u524D\u4E3B\u5E94\u7528\u548C\u5B50\u5E94\u7528\u7684\u6A21\u7248\u5DF2\u7ECF\u96C6\u6210\u5230\u53EF\u89C6\u5316\u5DE5\u5177\u4E2D\uFF0C\u4E5F\u53EF\u4EE5\u901A\u8FC7\u53EF\u89C6\u5316\u5DE5\u5177\u4E00\u952E\u4E0B\u8F7D",paraId:4,tocIndex:5},{value:"qiankun \u5B98\u65B9\u6587\u6863",paraId:5,tocIndex:6}]},44599:function(o,e,n){n.r(e),n.d(e,{texts:function(){return t}});var a=n(31746);const t=[{value:"\u672C\u5730\u5F00\u53D1\u65F6\uFF0C\u5B50\u5E94\u7528\u63A5\u53E3\u8BF7\u6C42\u53EF\u80FD\u4F1A\u53D1\u751F\u8DE8\u57DF\uFF0C\u56E0\u6B64\u53EF\u4EE5\u5728\u4E3B\u5E94\u7528\u4E2D\u914D\u7F6E\u4EE3\u7406\u505A\u63A5\u53E3\u8F6C\u53D1\uFF0C\u4F8B\u5982\uFF1A",paraId:0,tocIndex:1},{value:`headers: {
+  'Access-Control-Allow-Origin': '*'
+},
+// \u914D\u7F6E\u4EE3\u7406\uFF0C\u5904\u7406\u672C\u5730\u5F00\u53D1\u8DE8\u57DF\u95EE\u9898
 proxy: {
-  '/web-config': {
-    target: 'https://ops.test.xxx.com',
-    changeOrigin: true
+  '/proxy_url': {
+    target: 'https://xxx.test.xxx.com',
+    changeOrigin: true,
+    rewrite: (path) => path.replace(/^\\/proxy_url/, '')
   }
 }
-`,paraId:1,tocIndex:1},{value:`import legacy from '@vitejs/plugin-legacy';
-import react from '@vitejs/plugin-react-swc';
+`,paraId:1,tocIndex:1},{value:`import { defineConfig, loadEnv } from 'vite';
+import type { ConfigEnv } from 'vite';
+import react from '@vitejs/plugin-react';
+import legacy from '@vitejs/plugin-legacy';
 import autoprefixer from 'autoprefixer';
 import { visualizer } from 'rollup-plugin-visualizer';
-import { minify } from 'terser'; // \u5F15\u5165\u624B\u52A8\u5B89\u88C5\u7684Terser
-import type { ConfigEnv } from 'vite';
-import { defineConfig, loadEnv } from 'vite';
 import { viteMockServe } from 'vite-plugin-mock';
 import { manualChunksPlugin } from 'vite-plugin-webpackchunkname';
+import checker from 'vite-plugin-checker';
+import { moveScriptsToBody } from './plugins/moveScriptsToBody';
 
 // \u5F15\u5165 path \u5305\u6CE8\u610F\u4E24\u70B9:
 // 1. \u4E3A\u907F\u514D\u7C7B\u578B\u62A5\u9519\uFF0C\u4F60\u9700\u8981\u901A\u8FC7 \`pnpm i @types/node -D\` \u5B89\u88C5\u7C7B\u578B
@@ -81,10 +77,7 @@ import { resolve } from 'path';
 export default defineConfig(({ mode, command }: ConfigEnv) => {
   const {
     VITE_PUBLIC_URL = '/',
-    VITE_BUILD_ENV,
-    VITE_SOURCE_MAPPING_URL,
-    VITE_BUILD_ANALYZER,
-    VITE_ANT_PREFIXCLS,
+    VITE_BUILD_ANALYZER
   } = loadEnv(mode, process.cwd());
 
   return {
@@ -95,21 +88,14 @@ export default defineConfig(({ mode, command }: ConfigEnv) => {
       alias: {
         '@': resolve(__dirname, 'src'),
         src: resolve(__dirname, 'src'),
-        '@assets': resolve(__dirname, 'src/assets'),
-      },
+        '@assets': resolve(__dirname, 'src/assets')
+      }
     },
     css: {
       // \u8FDB\u884C PostCSS \u914D\u7F6E
       postcss: {
-        plugins: [autoprefixer()],
-        preprocessorOptions: {
-          less: {
-            modifyVars: {
-              '@ant-prefix': VITE_ANT_PREFIXCLS,
-            },
-          },
-        },
-      },
+        plugins: [autoprefixer()]
+      }
     },
     // \u672C\u5730\u5F00\u53D1\u914D\u7F6E
     server: {
@@ -117,79 +103,78 @@ export default defineConfig(({ mode, command }: ConfigEnv) => {
       port: 8080,
       open: true,
       headers: {
-        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Origin': '*'
       },
-      // \u914D\u7F6E\u4EE3\u7406\uFF0C\u5904\u7406\u5B50\u5E94\u7528\u5F00\u53D1\u8DE8\u57DF\u95EE\u9898
+      // \u914D\u7F6E\u4EE3\u7406\uFF0C\u5904\u7406\u672C\u5730\u5F00\u53D1\u8DE8\u57DF\u95EE\u9898
       proxy: {
-        '/web-config': {
-          target: 'https://ops.test.xxx.com',
+        '/proxy_url': {
+          target: 'https://xxx.test.xxx.com',
           changeOrigin: true,
-        },
-      },
+          rewrite: (path) => path.replace(/^\\/proxy_url/, '')
+        }
+      }
     },
     // \u6784\u5EFA\u914D\u7F6E
     build: {
       // \u751F\u6210sourcemap\u6587\u4EF6
-      sourcemap: !!VITE_SOURCE_MAPPING_URL,
-      // rollup\u914D\u7F6E
-      rollupOptions: {
-        // \u8F93\u51FA\u914D\u7F6E
-        output: {
-          // \u8BBE\u7F6Esourcemap\u7684\u8DEF\u5F84\u5F15\u7528\uFF0C\u4E91\u6548\u53D1\u5E03\u4F1A\u9ED8\u8BA4\u5C06sourcemap\u6587\u4EF6\u4E0A\u4F20\u5230\u5185\u7F51cdn
-          sourcemapBaseUrl: VITE_SOURCE_MAPPING_URL,
-          plugins: [
-            {
-              name: 'terser',
-              async renderChunk(code) {
-                const minified = await minify(code, {
-                  compress: {
-                    // \u751F\u4EA7\u73AF\u5883\u5220\u9664console
-                    drop_console: VITE_BUILD_ENV === 'production',
-                  },
-                  sourceMap: !!VITE_SOURCE_MAPPING_URL,
-                });
-                return minified;
-              },
-            },
-          ],
-        },
+      sourcemap: true,
+      minify: 'terser',
+      terserOptions: {
+        compress: {
+          // \u751F\u4EA7\u73AF\u5883\u5220\u9664console.log
+          pure_funcs: mode === 'production' ? ['console.log'] : []
+        }
       },
     },
     plugins: [
-      react(),
+      checker({
+        typescript: true
+      }),
+      react({
+        jsxImportSource: "@emotion/react",
+      }),
       // \u6253\u5305\u540E\u7684\u4EA7\u7269\u81EA\u5B9A\u4E49\u547D\u540D
       manualChunksPlugin(),
       // \u8BED\u6CD5\u964D\u7EA7\u4E0EPolyfill
       legacy({
         // \u8BBE\u7F6E\u76EE\u6807\u6D4F\u89C8\u5668\uFF0Cbrowserslist \u914D\u7F6E\u8BED\u6CD5
-        targets: ['ie >= 11'],
+        targets: [
+          'chrome >= 64',
+          'edge >= 79',
+          'safari >= 11.1',
+          'firefox >= 67'
+        ],
       }),
+      // \u81EA\u5B9A\u4E49\u63D2\u4EF6\uFF0C\u5C06\u811A\u672C\u79FB\u52A8\u5230body\u5E95\u90E8
+      moveScriptsToBody(),
       // mock\u670D\u52A1
-      VITE_BUILD_ENV === 'mock' &&
-        viteMockServe({
-          // default
-          mockPath: 'mock',
-        }),
+      mode === 'mock' &&
+      viteMockServe({
+        // default
+        mockPath: 'mock'
+      }),
       // \u6784\u5EFA\u4EA7\u7269\u5206\u6790
       VITE_BUILD_ANALYZER &&
-        visualizer({
-          // \u6253\u5305\u5B8C\u6210\u540E\u81EA\u52A8\u6253\u5F00\u6D4F\u89C8\u5668\uFF0C\u663E\u793A\u4EA7\u7269\u4F53\u79EF\u62A5\u544A
-          open: true,
-          gzipSize: true,
-          brotliSize: true,
-        }),
-    ],
+      visualizer({
+        // \u6253\u5305\u5B8C\u6210\u540E\u81EA\u52A8\u6253\u5F00\u6D4F\u89C8\u5668\uFF0C\u663E\u793A\u4EA7\u7269\u4F53\u79EF\u62A5\u544A
+        open: true,
+        gzipSize: true,
+        brotliSize: true
+      }),
+    ]
   };
 });
-`,paraId:2,tocIndex:2}]},90859:function(o,e,n){n.r(e),n.d(e,{texts:function(){return t}});var a=n(30372);const t=[{value:`import { ORIGIN_OPS } from '@/utils/origin';
-import { HomeOutlined, SettingOutlined } from '@ant-design/icons';
+`,paraId:2,tocIndex:2}]},90859:function(o,e,n){n.r(e),n.d(e,{texts:function(){return t}});var a=n(30372);const t=[{value:`import { HomeOutlined, SettingOutlined } from '@ant-design/icons';
+
+const { VITE_ORIGIN } = import.meta.env;
+
 /**
  * \u83B7\u53D6\u5B50\u5E94\u7528\u9759\u6001 HTML \u7684\u5730\u5740
  * @param name \u5E94\u7528\u540D
  * @returns \u9759\u6001 HTML \u7684\u5730\u5740
  */
 function getOpsWebPath(name: string) {
-  return \`\${ORIGIN_OPS}/gatekeeper/\${name}?v=\${Date.now()}\`; // \u52A0\u65F6\u95F4\u6233\u9632\u6B62\u7F13\u5B58
+  return \`\${VITE_ORIGIN}/gatekeeper/\${name}?v=\${Date.now()}\`; // \u52A0\u65F6\u95F4\u6233\u9632\u6B62\u7F13\u5B58
 }
 
 export interface Router {
@@ -296,13 +281,14 @@ export function startMicroApp({ rootNavigate }: State) {
  */
 import Suspenselazy from '@/components/Suspenselazy';
 import { RouteObject, createBrowserRouter } from 'react-router-dom';
+import { isLocal } from '@/utils/env';
 
 const Home = Suspenselazy(
-  () => import(/* webpackChunkName:"home" */ '@/view/Home'),
+  () => import(/* webpackChunkName:"home" */ '@/pages/Home')
 );
 
 const Empty = Suspenselazy(
-  () => import(/* webpackChunkName:"empty" */ '@/view/Empty'),
+  () => import(/* webpackChunkName:"empty" */ '@/pages/Empty')
 );
 
 const routes: RouteObject[] = [
@@ -311,26 +297,28 @@ const routes: RouteObject[] = [
     element: Home,
     children: [
       {
-        path: '*',
-      },
-    ],
+        path: '*'
+      }
+    ]
   },
   {
     path: 'empty',
-    element: Empty,
+    element: Empty
   },
   // \u672A\u5339\u914D\u5230\u9875\u9762
   {
     path: '*',
-    element: Empty,
-  },
+    element: Empty
+  }
 ];
 
-const { MODE, VITE_BASE_ROUTE_NAME } = import.meta.env;
+// \u83B7\u53D6\u57FA\u7840\u8DEF\u7531\u540D
+const { VITE_BASE_ROUTE_NAME } = import.meta.env;
 
+// \u521B\u5EFA\u8DEF\u7531
 const router = createBrowserRouter(routes, {
   // \u533A\u5206\u672C\u5730\u548C\u7EBF\u4E0A
-  basename: MODE === 'development' ? '/' : VITE_BASE_ROUTE_NAME,
+  basename: isLocal ? '/' : VITE_BASE_ROUTE_NAME,
 });
 
 export default router;
@@ -357,16 +345,17 @@ export default defineConfig(({ mode, command }) => {
     ],
   };
 });
-`,paraId:0,tocIndex:1},{value:`import legacy from '@vitejs/plugin-legacy';
-import react from '@vitejs/plugin-react-swc';
+`,paraId:0,tocIndex:1},{value:`import { defineConfig, loadEnv } from 'vite';
+import type { ConfigEnv } from 'vite';
+import react from '@vitejs/plugin-react';
+import legacy from '@vitejs/plugin-legacy';
+import qiankun from 'vite-plugin-qiankun';
 import autoprefixer from 'autoprefixer';
 import { visualizer } from 'rollup-plugin-visualizer';
-import { minify } from 'terser'; // \u5F15\u5165\u624B\u52A8\u5B89\u88C5\u7684Terser
-import type { ConfigEnv } from 'vite';
-import { defineConfig, loadEnv } from 'vite';
 import { viteMockServe } from 'vite-plugin-mock';
-import qiankun from 'vite-plugin-qiankun';
 import { manualChunksPlugin } from 'vite-plugin-webpackchunkname';
+import checker from 'vite-plugin-checker';
+import { moveScriptsToBody } from './plugins/moveScriptsToBody';
 
 // \u5F15\u5165 path \u5305\u6CE8\u610F\u4E24\u70B9:
 // 1. \u4E3A\u907F\u514D\u7C7B\u578B\u62A5\u9519\uFF0C\u4F60\u9700\u8981\u901A\u8FC7 \`pnpm i @types/node -D\` \u5B89\u88C5\u7C7B\u578B
@@ -378,10 +367,8 @@ import { resolve } from 'path';
 export default defineConfig(({ mode, command }: ConfigEnv) => {
   const {
     VITE_PUBLIC_URL = '/',
-    VITE_BUILD_ENV,
-    VITE_SOURCE_MAPPING_URL,
     VITE_BUILD_ANALYZER,
-    VITE_REACT_APP_NAME,
+    VITE_REACT_APP_NAME
   } = loadEnv(mode, process.cwd());
 
   return {
@@ -392,14 +379,14 @@ export default defineConfig(({ mode, command }: ConfigEnv) => {
       alias: {
         '@': resolve(__dirname, 'src'),
         src: resolve(__dirname, 'src'),
-        '@assets': resolve(__dirname, 'src/assets'),
-      },
+        '@assets': resolve(__dirname, 'src/assets')
+      }
     },
     css: {
       // \u8FDB\u884C PostCSS \u914D\u7F6E
       postcss: {
-        plugins: [autoprefixer()],
-      },
+        plugins: [autoprefixer()]
+      }
     },
     // \u672C\u5730\u5F00\u53D1\u914D\u7F6E
     server: {
@@ -407,148 +394,192 @@ export default defineConfig(({ mode, command }: ConfigEnv) => {
       port: 9091,
       open: true,
       headers: {
-        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Origin': '*'
       },
       // \u914D\u7F6E\u4EE3\u7406\uFF0C\u5904\u7406\u672C\u5730\u5F00\u53D1\u8DE8\u57DF\u95EE\u9898
       proxy: {
-        '/dev_proxy_ops': {
-          target: 'http://ops.test.xxx.com',
+        '/proxy_url': {
+          target: 'https://xxx.test.xxx.com',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\\/dev_proxy_ops/, ''),
-        },
-      },
+          rewrite: (path) => path.replace(/^\\/proxy_url/, '')
+        }
+      }
     },
     // \u6784\u5EFA\u914D\u7F6E
     build: {
       // \u751F\u6210sourcemap\u6587\u4EF6
-      sourcemap: !!VITE_SOURCE_MAPPING_URL,
-      // rollup\u914D\u7F6E
-      rollupOptions: {
-        // \u8F93\u51FA\u914D\u7F6E
-        output: {
-          // \u8BBE\u7F6Esourcemap\u7684\u8DEF\u5F84\u5F15\u7528\uFF0C\u4E91\u6548\u53D1\u5E03\u4F1A\u9ED8\u8BA4\u5C06sourcemap\u6587\u4EF6\u4E0A\u4F20\u5230\u5185\u7F51cdn
-          sourcemapBaseUrl: VITE_SOURCE_MAPPING_URL,
-          plugins: [
-            {
-              name: 'terser',
-              async renderChunk(code) {
-                const minified = await minify(code, {
-                  compress: {
-                    // \u751F\u4EA7\u73AF\u5883\u5220\u9664console
-                    drop_console: VITE_BUILD_ENV === 'production',
-                  },
-                  sourceMap: !!VITE_SOURCE_MAPPING_URL,
-                });
-                return minified;
-              },
-            },
-          ],
-        },
+      sourcemap: true,
+      minify: 'terser',
+      terserOptions: {
+        compress: {
+          // \u751F\u4EA7\u73AF\u5883\u5220\u9664console.log
+          pure_funcs: mode === 'production' ? ['console.log'] : []
+        }
       },
     },
     plugins: [
-      command === 'build' && react(),
-      // \u6253\u5305\u540E\u7684\u4EA7\u7269\u81EA\u5B9A\u4E49\u547D\u540D
-      manualChunksPlugin(),
+      checker({
+        typescript: true
+      }),
+      react({
+        jsxImportSource: "@emotion/react",
+      }),
       // \u5FAE\u5E94\u7528\u540D\u5B57\uFF0C\u4E0E\u4E3B\u5E94\u7528\u6CE8\u518C\u7684\u5FAE\u5E94\u7528\u540D\u5B57\u4FDD\u6301\u4E00\u81F4
       qiankun(VITE_REACT_APP_NAME, {
-        useDevMode: true,
+        useDevMode: true
       }),
+      // \u6253\u5305\u540E\u7684\u4EA7\u7269\u81EA\u5B9A\u4E49\u547D\u540D
+      manualChunksPlugin(),
       // \u8BED\u6CD5\u964D\u7EA7\u4E0EPolyfill
       legacy({
         // \u8BBE\u7F6E\u76EE\u6807\u6D4F\u89C8\u5668\uFF0Cbrowserslist \u914D\u7F6E\u8BED\u6CD5
-        targets: ['ie >= 11'],
+        targets: [
+          'chrome >= 64',
+          'edge >= 79',
+          'safari >= 11.1',
+          'firefox >= 67'
+        ],
       }),
+      // \u81EA\u5B9A\u4E49\u63D2\u4EF6\uFF0C\u5C06\u811A\u672C\u79FB\u52A8\u5230body\u5E95\u90E8
+      moveScriptsToBody(),
       // mock\u670D\u52A1
-      VITE_BUILD_ENV === 'mock' &&
-        viteMockServe({
-          // default
-          mockPath: 'mock',
-        }),
+      mode === 'mock' &&
+      viteMockServe({
+        // default
+        mockPath: 'mock'
+      }),
       // \u6784\u5EFA\u4EA7\u7269\u5206\u6790
       VITE_BUILD_ANALYZER &&
-        visualizer({
-          // \u6253\u5305\u5B8C\u6210\u540E\u81EA\u52A8\u6253\u5F00\u6D4F\u89C8\u5668\uFF0C\u663E\u793A\u4EA7\u7269\u4F53\u79EF\u62A5\u544A
-          open: true,
-          gzipSize: true,
-          brotliSize: true,
-        }),
-    ],
+      visualizer({
+        // \u6253\u5305\u5B8C\u6210\u540E\u81EA\u52A8\u6253\u5F00\u6D4F\u89C8\u5668\uFF0C\u663E\u793A\u4EA7\u7269\u4F53\u79EF\u62A5\u544A
+        open: true,
+        gzipSize: true,
+        brotliSize: true
+      }),
+    ]
   };
 });
 `,paraId:1,tocIndex:2}]},48612:function(o,e,n){n.r(e),n.d(e,{texts:function(){return t}});var a=n(47194);const t=[{value:"\u5B50\u5E94\u7528\u7684\u6839\u8282\u70B9\u9700\u8981\u7531\u539F\u6765\u7684 ",paraId:0,tocIndex:0},{value:"#root",paraId:0,tocIndex:0},{value:" \u8BBE\u7F6E\u4E3A ",paraId:0,tocIndex:0},{value:"#\u5B50\u5E94\u7528\u540D-root",paraId:0,tocIndex:0},{value:`<div id="%VITE_REACT_APP_NAME%-root"></div>
-`,paraId:1,tocIndex:1},{value:"\u4F7F\u7528\u65F6\u4E5F\u9700\u8981\u7531\u539F\u6765\u7684 ",paraId:2,tocIndex:2},{value:"#root",paraId:2,tocIndex:2},{value:" \u6539\u4E3A\u5BF9\u5E94\u7684 ",paraId:2,tocIndex:2},{value:"#\u5B50\u5E94\u7528\u540D-root",paraId:2,tocIndex:2},{value:`import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { QiankunProps } from 'vite-plugin-qiankun/dist/helper';
-import App from './App';
+`,paraId:1,tocIndex:1},{value:"\u4F7F\u7528\u65F6\u4E5F\u9700\u8981\u7531\u539F\u6765\u7684 ",paraId:2,tocIndex:2},{value:"#root",paraId:2,tocIndex:2},{value:" \u6539\u4E3A\u5BF9\u5E94\u7684 ",paraId:2,tocIndex:2},{value:"#\u5B50\u5E94\u7528\u540D-root",paraId:2,tocIndex:2},{value:`import '@assets/styles/index.less';
 
-const { VITE_REACT_APP_NAME } = import.meta.env;
+import ReactDOM from 'react-dom/client';
+import {
+  QiankunProps,
+  qiankunWindow,
+} from 'vite-plugin-qiankun/dist/helper';
+import App from './App';
+import { ConfigProvider } from 'antd';
+import locale from 'antd/locale/zh_CN';
+import dayjs from 'dayjs';
+
+import 'dayjs/locale/zh-cn';
+
+dayjs.locale('zh-cn');
+
+const { VITE_REACT_APP_NAME, VITE_ANT_PREFIXCLS } = import.meta.env;
+
 const rootDom = \`\${VITE_REACT_APP_NAME}-root\`;
+
+let root: ReactDOM.Root | null = null;
 
 const render = (props: QiankunProps) => {
   const { container, ...restProps } = props;
   // \u5982\u679C\u662F\u5728\u4E3B\u5E94\u7528\u7684\u73AF\u5883\u4E0B\u5C31\u6302\u8F7D\u4E3B\u5E94\u7528\u7684\u8282\u70B9\uFF0C\u5426\u5219\u6302\u8F7D\u5230\u672C\u5730
-  ReactDOM.createRoot(
-    (container
-      ? container?.querySelector(\`#\${rootDom}\`)
-      : document.getElementById(rootDom)) as HTMLElement,
-  ).render(
-    <React.StrictMode>
+  const mountNode = (container
+    ? container?.querySelector(\`#\${rootDom}\`)
+    : document.getElementById(rootDom)) as HTMLElement;
+
+  root = ReactDOM.createRoot(mountNode);
+  root.render(
+    <ConfigProvider locale={locale} prefixCls={VITE_ANT_PREFIXCLS}>
       <App {...restProps} />
-    </React.StrictMode>,
+    </ConfigProvider>
   );
 };
 `,paraId:3,tocIndex:2},{value:`import { qiankunWindow } from 'vite-plugin-qiankun/dist/helper';
 
 // \u5224\u65AD\u5F53\u524D\u5E94\u7528\u662F\u5426\u5728\u4E3B\u5E94\u7528\u4E2D
 qiankunWindow.__POWERED_BY_QIANKUN__ ? initQianKun() : render({});
-`,paraId:4,tocIndex:3},{value:`import { unmountComponentAtNode } from 'react-dom';
-import {
+`,paraId:4,tocIndex:3},{value:`import {
   QiankunProps,
-  renderWithQiankun,
+  ,
 } from 'vite-plugin-qiankun/dist/helper';
 
 const initQianKun = () => {
-  renderWithQiankun({
+  ({
     // \u5F53\u524D\u5E94\u7528\u5728\u4E3B\u5E94\u7528\u4E2D\u7684\u751F\u547D\u5468\u671F
     // \u6587\u6863 https://qiankun.umijs.org/zh/guide/getting-started#
 
     mount(props: QiankunProps) {
       render(props);
     },
-    update() {},
+    update() { },
     bootstrap() {
       console.log('react app bootstraped');
     },
-    unmount(props: QiankunProps) {
-      const { container } = props;
-      const mountRoot = container?.querySelector(\`#\${rootDom}\`);
-      unmountComponentAtNode(
-        (mountRoot as Element) || document.querySelector(\`#\${rootDom}\`),
-      );
-    },
+    unmount() {
+      root?.unmount();
+      root = null;
+    }
   });
 };
-`,paraId:5,tocIndex:4}]},9971:function(o,e,n){n.r(e),n.d(e,{texts:function(){return t}});var a=n(78991);const t=[{value:"\u5B50\u5E94\u7528\u9700\u8981\u5224\u65AD\uFF0C\u5982\u679C\u5728 ",paraId:0,tocIndex:1},{value:"qiankun",paraId:0,tocIndex:1},{value:" \u73AF\u5883\u4E0B\uFF0C\u9700\u8981\u4F7F\u7528\u4E3B\u5E94\u7528\u4F20\u8FC7\u6765\u7684\u6839\u8DEF\u5F84\u4F5C\u4E3A\u5B50\u5E94\u7528\u7684 ",paraId:0,tocIndex:1},{value:"basename",paraId:0,tocIndex:1},{value:`import { createBrowserRouter } from 'react-router-dom';
+`,paraId:5,tocIndex:4}]},9971:function(o,e,n){n.r(e),n.d(e,{texts:function(){return t}});var a=n(78991);const t=[{value:"\u5B50\u5E94\u7528\u9700\u8981\u5224\u65AD\uFF0C\u5982\u679C\u5728 ",paraId:0,tocIndex:1},{value:"qiankun",paraId:0,tocIndex:1},{value:" \u73AF\u5883\u4E0B\uFF0C\u9700\u8981\u4F7F\u7528\u4E3B\u5E94\u7528\u4F20\u8FC7\u6765\u7684\u6839\u8DEF\u5F84\u4F5C\u4E3A\u5B50\u5E94\u7528\u7684 ",paraId:0,tocIndex:1},{value:"basename",paraId:0,tocIndex:1},{value:`/*
+ * react-router-dom \u5B98\u65B9\u6587\u6863
+ * https://reactrouter.com/en/main
+ */
+import Suspenselazy from '@/components/Suspenselazy';
+import { RouteObject, createBrowserRouter } from 'react-router-dom';
 import { qiankunWindow } from 'vite-plugin-qiankun/dist/helper';
 
+import { isLocal } from '@/utils/env';
+
+const Home = Suspenselazy(
+  () => import(/* webpackChunkName:"Home" */ '@/pages/Home')
+);
+const Foo = Suspenselazy(
+  () => import(/* webpackChunkName:"Foo" */ '@/pages/Foo')
+);
+
+const Empty = Suspenselazy(
+  () => import(/* webpackChunkName:"Empty" */ '@/pages/Empty')
+);
+
+const routes: RouteObject[] = [
+  {
+    path: '/',
+    element: Home
+  },
+  {
+    path: 'foo',
+    element: Foo
+  },
+  {
+    path: 'empty',
+    element: Empty
+  },
+  // \u672A\u5339\u914D\u5230\u9875\u9762
+  {
+    path: '*',
+    element: Empty
+  }
+];
+
+const { VITE_BASE_ROUTE_NAME } = import.meta.env;
+
 function getRouter(rootBasename?: string) {
-  const { MODE, VITE_BASE_ROUTE_NAME } = import.meta.env;
+
   return createBrowserRouter(routes, {
-    /**
-     * \u8BBE\u7F6Ebasename
-     * 1.\u533A\u5206\u662F\u5426\u4E3Aqiankun\u73AF\u5883
-     * 2.\u533A\u5206\u662F\u5426\u4E3A\u672C\u5730\u5F00\u53D1\u73AF\u5883
-     */
+    // \u8BBE\u7F6Ebasename
     basename: qiankunWindow.__POWERED_BY_QIANKUN__
       ? rootBasename
-      : MODE === 'development'
-      ? '/'
-      : VITE_BASE_ROUTE_NAME,
+      : isLocal
+        ? '/'
+        : VITE_BASE_ROUTE_NAME
   });
 }
 
 export default getRouter;
+
 `,paraId:1,tocIndex:1}]},51446:function(o,e,n){n.r(e),n.d(e,{texts:function(){return t}});var a=n(68537);const t=[]},48320:function(o,e,n){n.r(e),n.d(e,{texts:function(){return t}});var a=n(42077);const t=[{value:"activeRule",paraId:0,tocIndex:1},{value:" \u4E0D\u80FD\u548C\u5FAE\u5E94\u7528\u7684\u771F\u5B9E\u8BBF\u95EE\u8DEF\u5F84\u4E00\u6837\uFF0C\u5426\u5219\u5728\u4E3B\u5E94\u7528\u9875\u9762\u5237\u65B0\u4F1A\u76F4\u63A5\u53D8\u6210\u5FAE\u5E94\u7528\u9875\u9762\u3002",paraId:0,tocIndex:1},{value:"\u4F8B\u5982\uFF1A",paraId:1,tocIndex:1},{value:"\u5B50\u5E94\u7528\u7684\u771F\u5B9E\u8BBF\u95EE\u5730\u5740\u4E3A",paraId:2,tocIndex:1},{value:"https://ops.test.xxx.com/gatekeeper/qiankun-mic-a",paraId:2,tocIndex:1},{value:"\u4E3B\u5E94\u7528\u7684\u771F\u5B9E\u8BBF\u95EE\u5730\u5740\u4E3A",paraId:3,tocIndex:1},{value:"https://ops.test.xxx.com/gatekeeper",paraId:3,tocIndex:1},{value:"\u4E3B\u5E94\u7528\u5728\u8BBE\u7F6E\u5B50\u5E94\u7528\u7684",paraId:4,tocIndex:1},{value:"activeRule",paraId:4,tocIndex:1},{value:"\u65F6\u4E0D\u80FD\u8BBE\u7F6E\u6210",paraId:4,tocIndex:1},{value:"qiankun-mic-a",paraId:4,tocIndex:1},{value:"\u89E3\u51B3\u65B9\u6CD5\uFF1A\u53EF\u4EE5\u53D6\u4E2A\u522B\u540D\u8D4B\u503C\u7ED9",paraId:5,tocIndex:1},{value:"activeRule",paraId:5,tocIndex:1},{value:"\uFF0C\u4F8B\u5982 ",paraId:5,tocIndex:1},{value:"child-a",paraId:5,tocIndex:1},{value:"\u5404\u4E2A\u5E94\u7528\u6837\u5F0F\u9694\u79BB \u8FD9\u4E2A\u95EE\u9898\u4E7E\u5764\u6846\u67B6\u505A\u4E86\u4E00\u5B9A\u7684\u5904\u7406\uFF0C\u5728\u8FD0\u884C\u65F6\u6709\u4E00\u4E2A sandbox \u7684\u53C2\u6570\uFF0C\u9ED8\u8BA4\u60C5\u51B5\u4E0B\u6C99\u7BB1\u53EF\u4EE5\u786E\u4FDD\u5355\u5B9E\u4F8B\u573A\u666F\u5B50\u5E94\u7528\u4E4B\u95F4\u7684\u6837\u5F0F\u9694\u79BB\uFF0C\u4F46\u662F\u65E0\u6CD5\u786E\u4FDD\u4E3B\u5E94\u7528\u8DDF\u5B50\u5E94\u7528\u3001\u6216\u8005\u591A\u5B9E\u4F8B\u573A\u666F\u7684\u5B50\u5E94\u7528\u6837\u5F0F\u9694\u79BB\u3002\u5982\u679C\u8981\u89E3\u51B3\u4E3B\u5E94\u7528\u548C\u5B50\u5E94\u7528\u7684\u6837\u5F0F\u95EE\u9898\uFF0C\u76EE\u524D\u6709 2 \u79CD\u65B9\u5F0F\uFF1A",paraId:6,tocIndex:2},{value:"\u5728\u4E7E\u5764\u4E2D\u914D\u7F6E { strictStyleIsolation: true } \u65F6\u8868\u793A\u5F00\u542F\u4E25\u683C\u7684\u6837\u5F0F\u9694\u79BB\u6A21\u5F0F\u3002\u8FD9\u79CD\u6A21\u5F0F\u4E0B qiankun \u4F1A\u4E3A\u6BCF\u4E2A\u5FAE\u5E94\u7528\u7684\u5BB9\u5668\u5305\u88F9\u4E0A\u4E00\u4E2A shadow dom \u8282\u70B9\uFF0C\u4ECE\u800C\u786E\u4FDD\u5FAE\u5E94\u7528\u7684\u6837\u5F0F\u4E0D\u4F1A\u5BF9\u5168\u5C40\u9020\u6210\u5F71\u54CD\u3002\u4F46\u662F\u57FA\u4E8E ShadowDOM \u7684\u4E25\u683C\u6837\u5F0F\u9694\u79BB\u5E76\u4E0D\u662F\u4E00\u4E2A\u53EF\u4EE5\u65E0\u8111\u4F7F\u7528\u7684\u65B9\u6848\uFF0C\u5927\u90E8\u5206\u60C5\u51B5\u4E0B\u90FD\u9700\u8981\u63A5\u5165\u5E94\u7528\u505A\u4E00\u4E9B\u9002\u914D\u540E\u624D\u80FD\u6B63\u5E38\u5728 ShadowDOM \u4E2D\u8FD0\u884C\u8D77\u6765\uFF0C\u8FD9\u4E2A\u5728 qiankun \u7684 issue \u91CC\u9762\u6709\u4E00\u4E9B\u8BA8\u8BBA\u548C\u4F7F\u7528\u7ECF\u9A8C\u3002",paraId:7,tocIndex:3},{value:"BEM",paraId:8,tocIndex:4},{value:" \u89C4\u8303\u6216\u7EDF\u4E00\u7ED9\u6240\u6709\u9009\u62E9\u5668\u540D\u6DFB\u52A0\u524D\u7F00\uFF0C\u6BD4\u5982 antd \u4F8B\u5B50\uFF1A",paraId:8,tocIndex:4},{value:"vite",paraId:9,tocIndex:4},{value:"\u914D\u7F6E\uFF1A",paraId:9,tocIndex:4},{value:`css: {
   // \u8FDB\u884C PostCSS \u914D\u7F6E
   postcss: {
