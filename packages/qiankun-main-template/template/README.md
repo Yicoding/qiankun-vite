@@ -1,3 +1,4 @@
 qiankun+vite 主应用模版
 
-[文档地址](http://react-library.pages.xmly.work/cli/micro-scripts#/guide)
+[文档地址](https://yicoding.github.io/qiankun-vite)
+
